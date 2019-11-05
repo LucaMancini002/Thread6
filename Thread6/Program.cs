@@ -28,6 +28,7 @@ namespace Thread6
             //Costruzione di un task che ritorna un risultato
             var resultTask = Task.Factory.StartNew((inputValue) =>
               PerformSomeLongCalulation(inputValue), 5000D);
+
             Console.ReadLine();
         }
 
